@@ -2,6 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+        <DocumentationFile>Docs.xml</DocumentationFile>
+        <DocumentationMarkdown>OAS3.SERVER-README.md</DocumentationMarkdown>
+        <VsxmdAutoDeleteXml>True</VsxmdAutoDeleteXml>
     </PropertyGroup>
     
     <ItemGroup>
@@ -9,6 +14,10 @@
         <PackageReference Include="NSwag.MSBuild" Version="13.13.2">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Vsxmd" Version="1.4.5">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
     </ItemGroup>
 

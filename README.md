@@ -12,4 +12,7 @@ basing on what is in *.yml file every time the project is built.
 
 Code generation works on all operating systems.
 
+This example also contains auto-generation of documentation file for Git repository in Markdown
+using VSXMD package for Server side project.
+
 Example is using .NET 5 framework.
