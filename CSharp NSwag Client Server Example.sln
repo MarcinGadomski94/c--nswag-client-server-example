@@ -7,9 +7,23 @@ ProjectSection(SolutionItems) = preProject
 	LICENSE = LICENSE
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAS3.Server", "OAS3.Server\OAS3.Server.csproj", "{14E8CB57-BBCA-43D9-A187-53C79C547C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAS3.Client", "OAS3.Client\OAS3.Client.csproj", "{7551A601-1B71-47D5-92C6-64D97EADE00B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14E8CB57-BBCA-43D9-A187-53C79C547C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E8CB57-BBCA-43D9-A187-53C79C547C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E8CB57-BBCA-43D9-A187-53C79C547C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E8CB57-BBCA-43D9-A187-53C79C547C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7551A601-1B71-47D5-92C6-64D97EADE00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7551A601-1B71-47D5-92C6-64D97EADE00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7551A601-1B71-47D5-92C6-64D97EADE00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7551A601-1B71-47D5-92C6-64D97EADE00B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
